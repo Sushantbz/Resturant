@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+}
+
+.navigation {
+    width: 100%;
+    height: 25%;
+    background-color: rgb(157, 35, 228);
+}
+
+.logo {
+    width: 30%;
+    line-height: 3px;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 50%;
+    float: left;
+    height: 10%;
+    padding-left: 30px;
+}
+
+.rightmenu {
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+
+.rightmenu ul {
+    text-align: right;
+    list-style: none;
+    font-size: larger;
+    padding-top: 70px;
+    word-spacing: 70px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.rightmenu ul li {
+    display: inline-block;
+    width: 57px;
+}
+
+.rightmenu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    border-style: outset;
+}
+
+.rightmenu a:hover {
+    color: chartreuse;
+}
+
+
+/* Navbar end */
+
+.headerinfo {
+    width: 100%;
+    height: 100%;
+    background-color: darkolivegreen;
+    padding-top: 100px;
+}
+
+.leftside {
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 64px;
+    padding-top: 46px;
+}
+
+.leftside h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 58px;
+    color: aliceblue;
+    border-style: outset;
+}
+
+.leftside p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 2px;
+    color: inherit;
+}
+
+.leftside button a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    color: black;
+    text-align: center;
+}
+
+.leftside button {
+    width: 171px;
+    height: 38px;
+    background-color: aqua;
+}
+
+.leftside button:hover {
+    background-color: brown;
+    width: 200px;
+    animation: 62sec ease-out;
+}
+
+
+/* left side end */
+
+
+/* right side staart */
+
+.rightside {
+    width: 50%;
+    float: right;
+}
+
+.rightside img {
+    width: 512px;
+    height: 500px;
+    padding-left: 118px;
+}
